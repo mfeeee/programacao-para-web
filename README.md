@@ -21,6 +21,8 @@ Cada pasta contém uma atividade diferente proposta durante a disciplina. As ati
 
 Este repositório será atualizado ao longo do semestre conforme novas atividades forem sendo concluídas.
 
+Se for enviar para o professor, salve a pasta e faça o .zip dela para ele poder ver as imagens.
+
 Sinta-se à vontade para explorar os códigos e aprender com eles! 😊
 
 ---
