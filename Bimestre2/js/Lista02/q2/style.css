@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px;
+}
+
+h1, .titulo {
+    font-family: cursive;
+}
+
+button {
+    background-color: green;
+    color: white;
+    height: 30px;
+    border: solid black 3px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(0, 100, 0);
+}
+
+.resultado {
+    font-weight: bold;
+}

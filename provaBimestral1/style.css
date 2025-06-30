@@ -1,0 +1,70 @@
+body {
+    margin: 10px 20%;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    background: linear-gradient(90deg, gray, white, gray);
+}
+
+#logo {
+    width: 40%;
+}
+
+header, main, .card, footer {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+header, footer {
+    gap: 40px;
+    padding: 10px 20px;
+}
+
+main {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 21%;
+    padding: 10px 10px 40px 10px;
+    flex-direction: column;
+    text-align: justify;
+    align-items: end;
+    font-size: 11px;
+    & img {
+        margin-bottom: 5px;
+    }
+    & a {
+        color: black;
+    }
+}
+
+footer{
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    & .inicio, .fim {
+        display: flex;
+        gap: 30px;
+        font-size: 11px;
+    }
+    & .fim {
+        font-size: 15px;
+        gap: 45px;
+    }
+
+}
+
+

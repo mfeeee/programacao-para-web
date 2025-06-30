@@ -1,0 +1,22 @@
+body {
+    margin: 10px 20%;
+}
+
+h2, p {
+    font-family: Arial;
+    color: maroon;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: maroon;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.right {
+    text-align: right;
+}

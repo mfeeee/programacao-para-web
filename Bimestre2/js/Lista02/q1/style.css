@@ -1,0 +1,21 @@
+body {
+    margin: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+button {
+    height: 75px;
+    width: 150px;
+}
+
+.mes, .estacao {
+    background-color: yellow;
+}
+
+.estacao {
+    font-weight: bold;
+}

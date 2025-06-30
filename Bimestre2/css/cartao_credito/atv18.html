@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Cartão</title>
+    </head>
+    <body>
+        <table border="2" cellpadding="5" cellspacing="3" width="40%" align="center">
+            <form action="POST">
+                <tr>
+                    <td colspan="2" ><input type="checkbox" name="Cartão de Crédito">Cartão de Crédito<br></td>
+                </tr>
+                <tr>
+                    <td align="center">Número:</td>
+                    <td><input type="number" name="numero"></td>
+                </tr>
+                <tr>
+                    <td align="center">Bandeira</td>
+                    <td>
+                        <input type="radio" name="bandeira_visa" value="cartao_visa" ><img src="exec_img_form/visa.jpg" alt="cartao_visa"><br>
+                        <input type="radio" name="bandeira_master" value="cartao_master"><img src="exec_img_form/master.jpg" alt="cartao_master"><br>
+                        <input type="radio" name="bandeira_american" value="cartao_american"><img src="exec_img_form/american.jpg" alt="cartao_american">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">Validade:</td>
+                    <td>
+                        <select name="validade_cartao">
+                            <option>2012</option>
+                            <option>2013</option>
+                            <option>2014</option>
+                        </select>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

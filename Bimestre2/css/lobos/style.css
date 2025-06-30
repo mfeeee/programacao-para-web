@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    width: 100%;
+    display: flex;
+}
+
+.header .title {
+    justify-content: left;
+    display: flex;
+    width: 45%;
+}
+
+.header .options {
+    justify-content: right;
+    display: flex;
+    width: 50%;
+}
+
+p {
+    font-family: verdana;
+    padding: 0 5px;
+}
+
+img {
+    width: 100px;
+}
+
+table {
+    table
+}
+

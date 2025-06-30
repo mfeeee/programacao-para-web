@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    background-color: black;
+    background-image: url(fundo_neo.jpg);
+    background-repeat: repeat-y;
+    background-position: 100%;
+    
+}
+
+table {
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    font-family: arial;
+    font-style: italic;
+    background-image: url(fundo_matrix.jpg);
+    width: 88%;
+    margin: 0;
+}
+
+.footer {
+    text-align: right;
+}
+
+p {
+    font-family: verdana;
+    font-size: 12px;
+    color: lightgreen;
+    text-align: justify;
+    text-indent: 50px;
+    width: 88%;
+
+}

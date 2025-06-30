@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+    <form name="calculadora" method="get" onsubmit="return calcula()">
+        <h2>Calculadora</h2>
+        <input type="number" name="numA" id="numA" placeholder="Digite um valor...">
+        
+        <select name="operacao" id="operacao">
+            <option value="soma">+</option>
+            <option value="subt">-</option>
+            <option value="mult">*</option>
+            <option value="div">/</option>
+        </select>
+
+        <input type="number" name="numB" id="numB" placeholder="Digite um valor...">
+
+        <button type="submit">Resultado</button>
+    </form>
+</body>
+</html>

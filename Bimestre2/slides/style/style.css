@@ -1,0 +1,36 @@
+body {
+    margin: 1px 10%;
+    padding: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    & h3 {
+        font-weight: bold;
+        margin-top: 0;
+        color: orange;
+    }
+    & a {
+        display: inline-block;
+        background-color: orange;
+        color: white;
+        text-decoration: none;
+        
+    }
+    & p {
+        font-size: 10px;
+        color: black;
+    }
+}

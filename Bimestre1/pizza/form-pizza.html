@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pizzaria</title>
+</head>
+<body bgcolor="lightgray" style="margin:20px 20px">
+    <font color="darkred" face="arial">
+    <table border="2" bgcolor="#fff" cellspacing="2" cellpadding="5" width="90%">
+        <tr>
+            <td align="center">
+                <img src="topo.png" alt="" width="100%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <span>
+                    <img src="icone_pizza.gif" align="left" alt="icone pizza">
+                    <h3>&nbsp;Cadastre-se e receba nossas atualizações</h3>
+                </span>
+
+                <hr size="3" color="darkred"/>
+
+                <table border="1" width="50%" align="center">
+                    <form action="" method="POST">
+                    <tr>
+                        <td align="right">
+                            Nome: 
+                        </td>
+                        <td width="20%">
+                            <input type="text" name="txt_nome" maxlength="20"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Senha:
+                        </td>
+                        <td>
+                            <input type="password" name="txt_pswd" maxlength="20"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" nowrap>
+                            Confirmação de senha:
+                        </td>
+                        <td>
+                            <input type="password" name="txt_pswd" maxlength="20"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" nowrap>
+                            Seu tipo de Pizza preferido:
+                        </td>
+                        <td>
+                            <select name="sabor_pizza" id="">
+                                <option value="bcn">Bacon</option>
+                                <option value="clb">Calabresa</option>
+                                <option value="clf">Califórnia</option>
+                                <option value="mgt">Margherita</option>
+                                <option value="mus">Mussarela</option>
+                                <option value="pep">Pepperoni</option>
+                                <option value="prt">Portuguesa</option>
+                                <option value="qqj">Quatro-queijos</option>
+                                <option value="default" selected="selected"></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" nowrap>
+                            Quantas vezes come Pizza por semestre?
+                        </td>
+                        <td>
+                            <input type="radio" name="rdb_vzs_pzz" value="um-cinco"/>Entre 1 a 5
+                            <br/>
+                            <input type="radio" name="rdb_vzs_pzz" value="cinco-dez"/>5 a 10
+                            <br/>
+                            <input type="radio" name="rdb_vzs_pzz" value="mais-dez"/>Mais de 10
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Comentário:
+                        </td>
+                        <td>
+                            <textarea name="txt_comentario" rows="5" cols="50"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="checkbox" name="ckb_rcb_email" value="receber"/>Deseja receber e-mails dos nossos parceiros
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" nameg="btn_enviar" value="Enviar">
+                            <input type="reset" nameg="btn_enviar" value="Limpar">
+                        </td>
+                    </tr>
+                    </form>
+                </table>
+
+                <hr size="3" color="darkred"/>
+                
+                <br/>
+            </td>
+        </tr>
+        <tr height="10%">
+            <td align="center">
+                <span><font size="2"><u>w&nbsp;w&nbsp;w&nbsp;.&nbsp;p&nbsp;i&nbsp;z&nbsp;z&nbsp;a&nbsp;o&nbsp;n&nbsp;l&nbsp;i&nbsp;n&nbsp;e&nbsp;.&nbsp;c&nbsp;o&nbsp;m&nbsp;.&nbsp;br</u></font></span>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <img src="topo.png" alt="" width="100%">
+            </td>
+        </tr>
+    </table>
+    </font>
+</body>
+</html>

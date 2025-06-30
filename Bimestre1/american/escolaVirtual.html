@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Virtual</title>
+</head>
+<body style="margin:20px 30%">
+
+    <table>
+
+        <form action="" method="post">
+
+            <h1 align="center">
+                Escola Virtual
+            </h1>
+
+            <h2 align="center">
+                Formulário de Pré-Matrícula
+            </h2>
+
+            <hr size="2" color="gray"/>
+
+            <table cellpadding="" cellspacing="" border="2" width="100%" align="center">
+
+                <tr height="175px">
+                    <td>
+                        <b>Dados Pessoais:</b>
+                        <table align="center" width="100%">
+                            <tr>
+                                <td align="right">
+                                    Nome do Aluno:
+                                </td>
+                                <td>
+                                    <input type="text" name="nome" id="nome_aluno" size="28">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right" nowrap>Nascimento (dd/mm/aaaa):</td>
+                                <td>
+                                    <input type="text" name="dia" id="dd" size="1">
+                                    /
+                                    <input type="text" name="mes" id="mm" size="1">
+                                    /
+                                    <input type="text" name="ano" id="aaaa" size="3">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    Nome da Mãe:
+                                </td>
+                                <td>
+                                    <input type="text" size="28">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    Nome do Pai:
+                                </td>
+                                <td>
+                                    <input type="text" size="28">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    Telefone:
+                                </td>
+                                <td>
+                                    DDD (<input type="text" name="ddd" id="ddd" size="1">)
+                                    Tel:<input type="text" name="tel" id="tel" size="8">
+                                    Ramal:<input type="text" name="ramal" id="ramal" size="2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    E-Mail:
+                                </td>
+                                <td>
+                                    <input type="text" name="email" id="email" size="28">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr height="175px">
+                    <td>
+                        <b>Informações de Matrícula:</b>
+                        <table align="center" width="100%">
+                            <tr>
+                                <td align="left">
+                                    Série:
+                                </td>
+                                <td align="left">
+                                    Turno:
+                                </td>
+                                <td align="left">
+                                    Atividades Extracurriculares:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <select name="serie" id="serie">
+                                        <option value="pre-escolar">pré-escolar</option>
+                                        <option value="pre-escolar">ensino fundamental</option>
+                                        <option value="pre-escolar">ensino médio</option>
+                                    </select>
+                                </td>
+                                <td valign="top">
+                                    <input type="radio" name="turno" id="m">Manhã
+                                    <br/>
+                                    <input type="radio" name="turno" id="t">Tarde
+                                </td>
+                                <td align="left">
+                                    <input type="checkbox" name="extra" id="infor">Informática
+                                    <br/>
+                                    <input type="checkbox" name="extra" id="musica">Música
+                                    <br/>
+                                    <input type="checkbox" name="extra" id="balet">Balet
+                                    <br/>
+                                    <input type="checkbox" name="extra" id="pintura">Pintura
+                                    <br/>
+                                    <input type="checkbox" name="extra" id="judo">Judô
+                                    <br/>
+                                    <input type="checkbox" name="extra" id="futebol">Futebol
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+
+            <br/>
+            
+            <p align="center">
+                <input type="submit" value="Envia Formulário">
+                <input type="reset" value="Limpa Campos">
+            </p>
+
+        </form>
+
+    </table>
+
+</body>
+</html>

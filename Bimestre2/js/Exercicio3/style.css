@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px;
+}
+
+.text-blue {
+    color: blue;
+}
+
+button {
+    font-size: 16px;
+}
+
+fieldset {
+    border: 3px ridge darkgray;
+    width: 400px;
+}
